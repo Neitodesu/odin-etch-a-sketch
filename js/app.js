@@ -22,15 +22,14 @@ const createGrid = () => {
   if (isNaN(grid) || grid > 100 || grid == '') {
     newGrid();
   } else {
+    container.style.setProperty('--grid-size', grid);
     gridNumber = grid * grid;
-    let gridSize = 800 / grid;
-    console.log(gridSize);
 
     for (i = 1; i <= gridNumber; i++) {
       div = document.createElement('div');
       container.appendChild(div);
-      div.style.width = `${gridSize}px`;
-      div.style.height = `${gridSize}px`;
+      div.style.width = `calc(100% / ${grid})`;
+      div.style.height = `calc(100% / ${grid})`;
       div.classList.add('square');
       div.style.backgroundColor = '#f5efe6';
 

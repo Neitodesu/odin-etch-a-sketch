@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Caveat Brush', sans-serif;
-  background-color: #e9d3bd;
+  background-color: #e4dde5;
   height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ button {
   font-family: inherit;
   font-size: 2rem;
   background-color: rebeccapurple;
-  color: #e9d3bd;
+  color: #f5efe6;
   border: none;
   border-radius: 0.3em;
   padding: 2px 8px;
@@ -41,14 +41,13 @@ button:hover {
   border-radius: 0.2em;
   display: flex;
   align-content: center;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 0;
   margin-top: 1em;
 }
 
 .square {
   border: 1px solid lightslategrey;
-  margin: 0;
-  padding: 0;
+  width: calc(800px / var(--grid-size));
+  height: calc(800px / var(--grid-size));
 }
