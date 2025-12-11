@@ -2,5 +2,9 @@
 
 [Odin Etch-a-Sketch](https://neitodesu.github.io/odin-etch-a-sketch/)
 
-![alt text](./imgs/screenshot-2025-12-10_13-33-01.png)
-![more alt text](./imgs/screenshot-2025-12-10_13-33-29.png)
+Pick a number between 1-100 to make a grid
+
+![Screenshot](./imgs/eas1.png)
+![Screenshot](./imgs/eas2.png)
+![Screenshot](./imgs/eas3.png)
+![Screenshot](./imgs/eas4.png)
